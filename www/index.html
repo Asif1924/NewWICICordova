@@ -35,16 +35,28 @@
         <meta name="color-scheme" content="light dark">
         <link rel="stylesheet" href="css/index.css">
         <title>Hello World</title>
+
     </head>
     <body>
+        <script>
+            function callCordova(){
+                alert ("h");
+            }
+        </script>
         <div class="app">
             <h1>Apache Cordova</h1>
             <div id="deviceready" class="blink">
                 <p class="event listening">Connecting to Device</p>
                 <p class="event received">Device is Ready</p>
             </div>
+            <div><button onclick="callCordova()">Cordova</button></div>
+            <div><button onclick="callCordova()">Cordova</button></div>
+            <div><button onclick="callCordova()">Cordova</button></div>
         </div>
         <script src="cordova.js"></script>
         <script src="js/index.js"></script>
+
+       
+
     </body>
 </html>
