@@ -27,17 +27,9 @@ function onDeviceReady() {
     console.log('Running cordova-' + cordova.platformId + '@' + cordova.version);
     document.getElementById('deviceready').classList.add('ready');
 
-    callCordova();
-    //cordova.exec(success,null,"WICIPlugin","coolMethod",["Helloworld"]);
 }
 
-function callCordova(){    
-    alert("callCordova");
-    //navigator.vibrate(3000);
-    cordova.exec(success,null,"WICIPlugin","coolMethod",["Hello, world from plugin"]);
-}
 
-function success(result){
-    alert(result);        
-}
+
+
 
