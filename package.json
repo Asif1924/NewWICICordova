@@ -14,14 +14,18 @@
   "license": "Apache-2.0",
   "devDependencies": {
     "com.canadiantire.bank.apps.wici.plugin.wiciplugin": "file:../WICIPlugins/WICIPlugin",
-    "cordova-android": "^10.1.2"
+    "cordova-android": "^10.1.2",
+    "cordova-plugin-device": "^2.1.0",
+    "cordova-plugin-vibration": "^3.1.1"
   },
   "cordova": {
     "platforms": [
       "android"
     ],
     "plugins": {
-      "com.canadiantire.bank.apps.wici.plugin.wiciplugin": {}
+      "com.canadiantire.bank.apps.wici.plugin.wiciplugin": {},
+      "cordova-plugin-vibration": {},
+      "cordova-plugin-device": {}
     }
   }
 }
